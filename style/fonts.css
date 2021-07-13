@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/Inter/Inter-Bold.ttf');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/Inter/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('../Fonts/Inter/Inter-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../Fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../Fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: url('../Fonts/Rubik/Rubik-Bold.ttf');
+}
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../Fonts/Rubik/Rubik-Light.ttf');
+}
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: url('../Fonts/Rubik/Rubik-Medium.ttf');
+}
