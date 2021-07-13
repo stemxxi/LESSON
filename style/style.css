@@ -122,8 +122,10 @@ body{
 
 .header{
     background: var(--white);
-    max-width: 677px;
+    max-width: 1183px;
     width: 100%;
+    display: flex;
+    border-radius: 0px 24px 24px 0px;
 }
 
 .header__pre-title{
@@ -246,6 +248,91 @@ body{
     
 }
 
+.header__content-punishment{
+    margin-left: 50px;
+    
+}
 
+.header__punishment-icon{
+    font-size: 25px;
+    color: red;
+    background: violet;
+    padding: 18px 20px;
+    border-radius: 16px;
+}
+
+.header__punishment_card-title{
+    font-size: 22px;
+    line-height: 19px;
+    font-family: var(--ISM);
+    color: var(--black);
+    
+
+}
+.header__punishment-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#fd746c;
+    border-radius: 16px;
+    width: 444px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.header__punishment-title{
+    font-size: 40px;
+    line-height: 19px;
+    color: var(--black);
+    font-family: var(--ISM);
+    padding-top: 60px;
+    margin-bottom: 60px;
+}
+
+.header__punishment-card:nth-of-type(2){
+    background:#4ca1af;
+}
+.header__punishment-card:nth-of-type(3){
+    background: #904e95;
+}
+.header__punishment-card:nth-of-type(4){
+    background:#f56217;
+}
+.header__punishment-card:nth-of-type(5){
+    background: #ef629f;
+}
+
+.header__punishment-icon1{
+    font-size: 25px;
+    color: red;
+    background:#FFCE73;;
+    padding: 18px 20px;
+    border-radius: 16px;
+}
+.header__punishment-icon2{
+    font-size: 25px;
+    color: red;
+    background: #A0D7E7;
+    padding: 18px 20px;
+    border-radius: 16px;
+}
+.header__punishment-icon3{
+    font-size: 25px;
+    color: red;
+    background: #B2E2D7;
+    padding: 18px 20px;
+    border-radius: 16px;
+}
+.header__punishment-icon4{
+    font-size: 25px;
+    color: red;
+    background: #DDEDFF;
+    padding: 18px 20px;
+    border-radius: 16px;
+}
+
+.header__punishment-card:hover{
+    transform: scale(1.1);
+}
 
 /* HEADER END */
